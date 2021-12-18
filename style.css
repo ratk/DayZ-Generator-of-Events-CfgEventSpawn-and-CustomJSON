@@ -1,0 +1,89 @@
+:root {
+  --primary: #EC839F;
+
+  
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px    100% = 16px
+  overflow-y: scroll;
+  background: var(--greyLight-1);
+  
+  @media screen and (min-width: 900px) {
+    font-size: 75%; 
+  }
+}
+body {
+  display: block;
+  position: relative;
+  margin: 0 0 50px;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background: var(--background);
+  width: 100%;
+  max-width: 900px;
+}
+.components {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  user-select: none;
+}
+.form-group {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+textarea { 
+  padding: 0 15px;
+  display: block;
+  width: 100%;
+}
+button {
+  flex: 0 0 100%;
+  height: 40px;
+  width: 100%;
+  margin: 10px auto 50px !important;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  user-select: none;
+}
+.logo img {
+  display: block;
+  border-radius: 50px;
+  width: 100%;
+  height: auto;
+  max-width: 90px;
+}

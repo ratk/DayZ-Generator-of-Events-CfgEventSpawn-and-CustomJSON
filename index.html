@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="hydrated"><head>
+<meta charset="UTF-8"><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+<title>DayZ Generator of Events, CfgEventSpawn and CustomJSON - by danielratk</title>
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" type="image/png" href="./daniel-blue-ice-text-effect.png">
+<link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+<link rel="canonical" href="https://codepen.io/danielratk/pen/BawZaMx">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="components">
+      <div class="logo">
+        <img src="./daniel-blue-ice-text-effect.png">
+      </div> 
+      
+      <div class="title">
+        <h1>DayZ Generator of Events, CfgEventSpawn and CustomJSON</h1>
+        <h4>by <a href="https://github.com/ratk">danielratk</a></h4>
+      </div>
+      <div class="form">
+        <div class="form-group">
+          <label for="dayzpc">DayZ Community Offline Mode Export without function</label>
+          <textarea class="form-control rounded-0" id="dayzpc" name="dayzpc" rows="10" placeholder="only SpawnObject line example: SpawnObject( &quot;OffroadHatchback_Blue&quot;, &quot;7428.277344 5.921236 3553.899414&quot;, &quot;161.999954 -1.234041 0.345681&quot; );"></textarea>
+        </div>
+
+        <button id="enviar" class="btn btn-info">Generate</button>
+
+        <div class="form-group">
+          <label for="events">Result Events</label>
+          <textarea class="form-control rounded-0" id="events" name="events" rows="10"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="eventspawn">Result CfgEventSpawn</label>
+          <textarea class="form-control rounded-0" id="eventspawn" name="eventspawn" rows="10"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="jsonObject">Result custom json</label>
+          <textarea class="form-control rounded-0" id="jsonObject" name="jsonObject" rows="10"></textarea>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+  </div>
+</body>
+</html>
