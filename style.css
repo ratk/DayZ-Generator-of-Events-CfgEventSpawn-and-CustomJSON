@@ -87,3 +87,12 @@ button {
   height: auto;
   max-width: 90px;
 }
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-switch {
+    flex: 1;
+    text-align: center;
+}
