@@ -11,3 +11,5 @@ SpawnObject( "Bonfire", "7448.277344 5.921236 3553.899414", "161.999954 -1.23404
 SpawnObject( "Bonfire", "7458.277344 5.921236 3553.899414", "161.999954 -1.234041 0.345681" );
 SpawnObject( "Bonfire", "7468.277344 5.921236 3553.899414", "161.999954 -1.234041 0.345681" );
 ```
+
+See working: https://day-z-generator-of-events-cfg-event-spawn-and-custom-json.vercel.app/
